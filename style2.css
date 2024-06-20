@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(167, 180, 180); 
+}
+.lgform {
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.header {
+    color: rgb(222, 227, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: auto;
+    background-color: rgb(17, 8, 14);
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0 0;
+    font-size: 24px; 
+}
+button {
+    background-color: rgb(216, 221, 230);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px; 
+    color: black;
+    font-size: 22px; 
+    font-family: sans-serif;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.input-box {
+    padding-top: 40px;
+    font-size: 20px; 
+}
+.pass {
+    padding-bottom: 10px;
+    font-size: 20px; 
+}
+.reg {
+    padding-top: 10px;
+    font-size: 20px; 
+}
+.fp {
+    padding-left: 70px;
+    font-size: 20px; 
+}
